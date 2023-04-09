@@ -87,8 +87,8 @@ class uyeEkleme extends mailBilgi {
         }
     }
     public void mailGonder() {
-        String gonderici = "yusufuveyskaplan1@gmail.com";
-        char[] sifre = {'q','m','q','x','m','n','u','m','e','m','w','j','t','g','m','n'};
+        String gonderici = "gönderici mail";
+        char[] sifre = {"gönderici şifre"};
         PasswordAuthentication passwordAuthentication = new PasswordAuthentication(gonderici, sifre);
         String alici;
         String konu;
